@@ -1,3 +1,6 @@
+
+This fork adds support for the TH3D EZABL and s specifically for the Creality v422 mainboard. The only other notable changes between this fork and the main branch is the X max bedsize has been adjusted to 220 instead of 230. The reason for this is the stock setup for a Voxelab Aquila X1 (original) 3d printer is that the max bed size for X is slightly smaller, and using 230 for the X max bed size will cause the X gantry to bang against the right side of the X gantry bracket that attaches to the right side Z extrusion unless you use a dremel with a cut off wheel to shave down the bolt size and in some cases and part of the bolt itself.
+
 # Professional Firmware for the Creality Ender 3 V2/S1 Printers
 
 ![GitHub contributors](https://img.shields.io/github/contributors/mriscoc/Ender3V2S1.svg)
